@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Compo1 from './componets/compo1/Compo1'
 import Compo2 from './componets/compo2/Compo2'
+import Compo3 from './componets/compo3/Compo3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +33,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Compo3></Compo3>
     </>
   )
 }

@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Compo1 from './componets/compo1/Compo1'
+import Compo2 from './componets/compo2/Compo2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <Compo2></Compo2>
       <h1>Practica 9 Jose Gregorio Perez Montilla</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

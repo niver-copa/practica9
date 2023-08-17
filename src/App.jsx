@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import { Box, CircularProgress, Grid, Pagination } from "@mui/material";
+import { characters } from "./api/characters";
 
 import CardItem from "./components/Card/CardItem";
 import Navbar from "./components/Navbar/Navbar";
-import { Box, CircularProgress, Grid, Pagination } from "@mui/material";
-import { characters } from "./api/characters";
+import Footer from "./components/Footer/Footer";
 
 // eslint-disable-next-line no-unused-vars
 const getAllFunc = characters.getAll;
@@ -58,6 +59,7 @@ function App() {
           <Box sx={{ display: "flex", justifyContent: "center", paddingY: 4 }}>
             <Pagination count={count} page={page} onChange={handleChange} />
           </Box>
+          <Footer />
         </>
       )}
     </>

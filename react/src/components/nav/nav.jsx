@@ -1,18 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 export default function nav() {
-
-    const Likes = ({ likes }) => {
-        return <button onClick={()=> {
-          likes++; console.log(likes);
+  const Likes = ({ likes }) => {
+    const state = useState(0)
+    console.log(state);
+    return (
+      <button
+        onClick={() => {
+          likes++;
         }}
-        >
-          {likes} likes</button>;
-    }
+      >
+        {likes} likes
+      </button>
+    );
+  };
 
   return (
     <div>
-       <Likes likes={12}/>
+      <Likes likes={12} />
     </div>
-  )
+  );
 }

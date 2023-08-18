@@ -4,7 +4,7 @@ export default function
     () {
     return (
         <div>
-        <div id="carouselExampleCaptions" className="carousel slide" data-mdb-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide" data-mdb-ride="carousel">
                 <div className="carousel-indicators">
                     <button
                         type="button"
@@ -60,7 +60,7 @@ export default function
                 </button>
             </div>
 
-            
+
 
 
 

@@ -1,6 +1,7 @@
 import './App.css'
 import Nav from "../src/components/nav/nav"
 import Card from './components/nav/card/card'
+import Footer from './components/footer/footer'
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
     <>
       <Nav />
       <Card />
+      <Footer />
     </>
   )
 }

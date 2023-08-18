@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import PrimerCompont from './components/PrimerCompont';
 import './App.css';
+import SegundoCompont from './components/SegundoCompont';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <PrimerCompont/>
+      <SegundoCompont/>
     </>
   )
 }

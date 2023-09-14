@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Footer'
 import Header from './Header'
 import IMG from './IMG'
 
@@ -10,6 +11,7 @@ function App() {
     
       <Header></Header>
       <IMG></IMG>
+      <Footer></Footer>
     </>
   )
 }

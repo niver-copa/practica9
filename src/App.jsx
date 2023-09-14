@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
+import Main from './components/Main/Main'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
     <Nav></Nav>
     <Footer></Footer>
+    <Main></Main>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

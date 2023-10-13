@@ -1,5 +1,6 @@
 import { Titulo } from "./components/Titulo.jsx";
 import { Subitulo } from "./components/Subtitulo.jsx";
+import { Parrafo } from "./components/Parrafo.jsx";
 import "./App.css";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <div>
         <Titulo />
-        <Subituloitulo />
+        <Subitulo />
+        <Parrafo />
       </div>
     </>
   );

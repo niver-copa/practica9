@@ -1,3 +1,3 @@
 export const Titulo = () => {
-  return <h1>Práctica Calificada 9</h1>;
+  return <h1>Práctica Calificada 9.</h1>;
 };

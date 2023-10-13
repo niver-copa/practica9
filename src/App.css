@@ -1,0 +1,29 @@
+* {
+  padding: 6;
+  margin: 0;
+  box-sizing: border-box;
+}
+Nav{
+  height: 50px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+Footer{
+  height: 10vh;
+  background-color: tomato;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

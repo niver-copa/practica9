@@ -1,3 +1,3 @@
 export const Subitulo = () => {
-  return <h3>Practicando PULL REQUEST</h3>;
+  return <h3>Practicando PULL REQUEST.</h3>;
 };

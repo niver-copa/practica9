@@ -41,8 +41,20 @@
   color: #888;
 }
 
-.component1{
-  background-color: antiquewhite;
+.component{
   color: #888;
   padding: 2rem;
+}
+
+.uno{
+ background-color: antiquewhite;
+}
+
+.dos{
+  background-color: cadetblue;
+  color: bisque;
+}
+
+.tres{
+background-color: darkolivegreen;
 }
